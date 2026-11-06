@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Siphelele's Love Story ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <!-- PAGE 1: INTRODUCTION -->
+        <section class="page active" id="introPage">
+
+            <div class="overlay"></div>
+
+            <div class="content">
+
+                <p class="welcome">WELCOME TO MY LITTLE WORLD</p>
+
+                <h1>Hi, my name is</h1>
+
+                <h2>Siphelele Nyembe ❤️</h2>
+
+                <p class="question">
+                    You wanna know something about me
+                    and the person I love?
+                </p>
+
+                <p class="small-text">
+                    There's a little story behind this...
+                </p>
+
+                <button onclick="showPage('storyPage')">
+                    Yes, tell me more ❤️
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- PAGE 2: MY STORY -->
+        <section class="page story-page" id="storyPage">
+
+            <div class="story-content">
+
+                <p class="welcome">CHAPTER ONE</p>
+
+                <h1>Well, let me tell you my story...</h1>
+
+                <p class="story-text">
+                    My name is Siphelele Nyembe.
+
+                    I'm just a guy with dreams, ambitions,
+                    experiences and a heart that has a story
+                    worth telling.
+
+                    Life has taken me through different
+                    experiences, introduced me to different
+                    people and taught me lessons I will
+                    always carry.
+
+                    But there's one particular person
+                    I want to tell you about...
+                </p>
+
+                <p class="highlight">
+                    And trust me, she's not just anybody. ❤️
+                </p>
+
+                <button onclick="showPage('lovePage')">
+                    Let's talk about her ❤️
+                </button>
+
+                <button class="back-button"
+                    onclick="showPage('introPage')">
+                    ← Go back
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- PAGE 3: THE PERSON I LOVE -->
+        <section class="page love-page" id="lovePage">
+
+            <div class="love-content">
+
+                <p class="welcome">CHAPTER TWO</p>
+
+                <h1>The person I love ❤️</h1>
+
+                <p class="story-text">
+                    Now, where do I even begin?
+
+                    There's someone who holds a very special
+                    place in my heart.
+
+                    Someone whose presence makes ordinary
+                    moments feel different.
+
+                    Someone I want to laugh with, grow with,
+                    create memories with and experience
+                    life's beautiful moments alongside.
+                </p>
+
+                <h2>And that person is...</h2>
+
+                <p class="highlight">
+                    My favourite person. ❤️
+                </p>
+
+                <button onclick="showPage('amahlePage')">
+    Meet the woman I love ❤️
+</button>
+
+<button onclick="showPage('storyPage')"
+    class="back-button">
+    ← Go back
+</button>
+
+            </div>
+
+        </section>
+
+
+<!-- PAGE 4: INTRODUCING AMAHLE -->
+
+<section class="page amahle-page" id="amahlePage">
+
+    <div class="amahle-overlay"></div>
+
+    <div class="amahle-content">
+
+        <p class="welcome">THE WOMAN BEHIND MY SMILE</p>
+
+        <h1 class="fade-name">Amahle Ngubane ❤️</h1>
+
+        <div class="clan-names">
+            <p>Mazikode</p>
+            <p>Mbomvu</p>
+            <p>Somahhashi</p>
+            <p>Nyoniyezwe</p>
+        </div>
+
+        <p class="highlight">
+            A beautiful name, a beautiful heritage,
+            and a special place in my heart.
+        </p>
+
+        <button onclick="showPage('memoriesPage')">
+            Explore our memories ❤️
+        </button>
+
+        <button class="back-button"
+            onclick="showPage('lovePage')">
+            ← Go back
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- PAGE 5: OUR MEMORIES -->
+
+<section class="page memories-page" id="memoriesPage">
+
+    <div class="gallery-content">
+
+        <p class="welcome">A COLLECTION OF SPECIAL MOMENTS</p>
+
+        <h1>Our Memories ❤️</h1>
+
+        <p class="story-text">
+            Every picture holds a memory.
+            Every video tells a little story.
+            Here are some moments worth keeping.
+        </p>
+
+        <div class="photo-gallery">
+
+            <img src="images/amahle-1.jpg"
+                 alt="Amahle photograph 1">
+
+            <img src="images/amahle-2.jpg"
+                 alt="Amahle photograph 2">
+
+            <img src="images/amahle-3.jpg"
+                 alt="Amahle photograph 3">
+
+            <img src="images/us-together.jpg"
+                 alt="Our photograph together">
+
+        </div>
+
+        <h2>Our Little Videos 🎥</h2>
+
+        <div class="video-gallery">
+
+            <video controls playsinline preload="metadata">
+                <source src="videos/memory-1.mp4"
+                        type="video/mp4">
+                Your browser does not support video.
+            </video>
+
+            <video controls playsinline preload="metadata">
+                <source src="videos/memory-2.mp4"
+                        type="video/mp4">
+                Your browser does not support video.
+            </video>
+
+        </div>
+
+        <button onclick="showPage('amahlePage')"
+            class="back-button">
+            ← Back to Amahle
+        </button>
+
+    </div>
+
+</section>
+
+
+    </main>
+
+    <footer>
+        Made with love by Siphelele ❤️
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
